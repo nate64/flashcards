@@ -1,10 +1,25 @@
 $(document).ready( function() {
 
+var button1 = 'test' //$('#random key/value pair');
+var button2 = 'two' //$('#random key/value pair');
+var button3 = 'huh' //$('#random key/value pair');
 
-const = big array{}
+var data = { this: "current execution context of a function", key2: "value2", 
+        key3: "value3" };
 
-jquery onclick to flip card, reveal answer
--put in actual JS knowledges
+function pickRandom(data) {
+  var result;
+  var count = 0;
+  for (var prop in data)
+    if (Math.random() <1/++count)
+    result = prop;
+    return result;
+    console.log(result);
+}
+
+
+
+
 
 
 });
@@ -18,3 +33,6 @@ jquery onclick to flip card, reveal answer
 //user can edit
 //user can delete
 //user can add
+
+// jquery onclick to flip card, reveal answer
+// -put in actual JS knowledges
